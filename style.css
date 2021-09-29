@@ -28,7 +28,7 @@ header{
 }
 .logo1{
     position: absolute;
-    top: -85%;
+    top: -69%;
     left: -78%;
     width: 49%;
     height: 150px
@@ -110,7 +110,7 @@ header{
     font-size: xx-large;
 }
 .mt{
-    margin-top: 3rem;
+    margin-top: 8rem;
 }
 .flex-design{
     font-family: Arial;
@@ -279,13 +279,56 @@ header{
     font-size: large;
     background-color:#457a8e; 
     color:black ;
-    height: 150px;
+    height: 167px;
 }
 .footer-links a{
     color: white;
 }
 .footer-bottom{
-    background-color: rgb(10 73 165 / 78%);
+    background-color: #1d59a2;
     text-align: center;
     color: black;
+}
+.about-us-heading{
+    margin-top: 1rem;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 1rem;
+    display: flex;
+    height: 57px;
+    font-size: medium;
+    align-items: center;
+    justify-content: center;
+    font-family: 'arial';
+}
+.about-us-content{
+    margin-left: 9%;
+    margin-right: 9%;
+    font-size: larger;
+    font-family: arial;
+}
+.fn{
+    font-size: medium;
+    margin-top: 4%;
+    margin-top:1rem ;
+}
+.footer{
+    margin-top: 4%;
+}
+.footer-top-container{
+    font-family: Arial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.about-us::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(images/about\ us\ 1.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+
 }
